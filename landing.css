@@ -1,0 +1,30 @@
+body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Asset/images3.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Georgia', serif;
+        }
+
+        .glass-card {
+            background: rgba(249, 218, 181, 0.23);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+        }
+
+        .time-box {
+            min-width: 90px;
+        }
+
+        .btn-gold {
+            background-color: #d4af376a !important;
+            color: white !important;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-gold:hover {
+            background-color: #b5952f !important;
+            color: white !important;
+            transform: translateY(-3px);
+        }
